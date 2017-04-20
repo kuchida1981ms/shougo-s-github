@@ -44,8 +44,8 @@ zplug load
 # environment
 #####################################################################
 
-export LANG=en_US.UTF-8
 export EDITOR=vim
+export LANG=ja_JP.UTF-8
 
 # Better umask
 umask 022
