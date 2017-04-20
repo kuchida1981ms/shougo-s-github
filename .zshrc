@@ -44,8 +44,8 @@ zplug load
 # environment
 #####################################################################
 
-export EDITOR=nvim
 export LANG=en_US.UTF-8
+export EDITOR=vim
 
 # Better umask
 umask 022
@@ -252,7 +252,6 @@ alias df="df -h"
 alias od='od -Ax -tx1z'
 alias hexdump='hexdump -C'
 
-alias vim='nvim'
 alias termite='termite --exec=zsh'
 alias lock='i3exit lock'
 
